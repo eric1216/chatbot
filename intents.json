@@ -1,0 +1,35 @@
+{"intents": [ 
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "greetings", "what's up?", "how is it going"],
+    "responses": ["Hello!", "Hey!, What can I do for you?"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["cya", "see you later", "goodbye", "i am leaving", "have a good day", "bye", "see ya"],
+    "responses": ["Goodbye!", "Later", "Alrighty", "Talk to you later"]
+    },
+    {"tag": "age",
+    "patterns": ["how old", "how old are you", "what is your age", "age"],
+    "responses": ["Bit of an odd question, but if you insist on knowing I'm 21.", "21 years old"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should i call you", "whats your name", "who are you", "can you tell me your nanme"],
+    "responses": ["I'm Chit Chat, call me CC for short", "You can call me CC", "I'm a chatbot named CC!"]
+    },
+    {"tag": "shop",
+    "patterns": ["id like to buy something", "what are you selling", "what are your products"],
+    "responses": ["I'm here to sell you pizza!", "I'm selling pizza!", "PIZZA!"]
+    },
+    {"tag": "hours",
+    "patterns": ["when are you guys open", "what are your hours", "hours of operation", "hours"],
+    "responses": ["24/7"]
+    },
+    {"tag": "menu",
+    "patterns": ["what kinda of pizza do you sell", "what toppings are avaliable", "whats on the menu", "toppings?", "menu?"],
+    "responses": ["Any kind of pizza you can think of!", "Anything from pepperoni, to sausages, mushrooms, bacon, onions, extra cheese, peppers, chicken, and even pineapple! You name it!"]
+    },
+    {"tag": "favorite",
+    "patterns": ["what would you recommend", "whats your favorite topping", "whats your favorite pizza", "whats your favorite food"],
+    "responses": ["I'd recommend pepperoni pizza!", "My favorite food is pepperoni pizza!"]
+    }
+]}
+
