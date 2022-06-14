@@ -32,7 +32,9 @@ words = sorted(set(words))
 
 classes = sorted(set(classes))
 
-pickle.dumpt(words, open('words.pkl', 'wb'))
-pickle.dumpt(words, open('classes.pkl', 'wb'))
+pickle.dump(words, open('words.pkl', 'wb'))
+pickle.dump(words, open('classes.pkl', 'wb'))
 
 print(words)
+
+print('also')
