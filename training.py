@@ -2,7 +2,6 @@ import random
 import json
 import pickle
 import numpy as np
-import h5py
 
 import nltk
 from nltk import WordNetLemmatizer
